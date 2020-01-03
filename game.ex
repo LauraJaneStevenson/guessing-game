@@ -1,4 +1,5 @@
 defmodule Game do
+
   def play do
 
     hints = "veggie, orange, crunchy \n"
@@ -20,7 +21,7 @@ defmodule Game do
 
   end
 
-  def attempt(wrong-answer) do
+  def attempt(wrong_guess) do
 
     # print wrong
     IO.puts "Wrong!"
